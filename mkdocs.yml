@@ -5,6 +5,7 @@ nav:
   - Мир:
     - Языки: world/languages.md
     - Времяисчисление: world/time.md
+    - Деньги: world/money.md
     - Аспекты: 
       - Скрытые знания: world/aspects/hidden_lore.md
       - Магические традиции: world/aspects/magic_traditions.md
