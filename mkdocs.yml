@@ -64,8 +64,8 @@ theme:
     - navigation.path
     - search
   language: ru
-  logo: 
-  favicon: 
+  logo: images/deadmooncult_ico.ico
+  favicon: images/deadmooncult_favico.png
 extra_css:
   - stylesheets/extra.css
   - stylesheets/neoteroi-mkdocs.css
