@@ -47,7 +47,12 @@ nav:
   
   - Культы:
     - Культы Нетленного: 
-      - Культ Мёртвой Луны: cults/father/dead_moon_cult.md
+      - Культ Мёртвой Луны:
+        - О культе: cults/father/dmc/about_dmc.md
+        - Догматы: cults/father/dmc/dogma_dmc.md
+        - Вера: cults/father/dmc/faith_dmc.md
+        - Прозелетизм: cults/father/dmc/proselytism_dmc.md
+        - Структура: cults/father/dmc/power_dmc.md
 
 theme: 
   name: 'material'
