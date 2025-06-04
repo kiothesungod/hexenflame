@@ -3,15 +3,15 @@
   --md-primary-fg-color:        #3d354b; /*цвет шапки и левого меню*/
   /*--md-primary-fg-color:        #322235;*/
   /*--md-primary-fg-color:        #343035;*/
-  --md-primary-fg-color--light: #00ff40;
-  --md-primary-fg-color--dark:  #046d00;
+  --md-primary-fg-color--light: #3d354b;
+  --md-primary-fg-color--dark:  #201c27;
   --md-primary-bg-color:        #dadada;
   --md-primary-bg-color--light: #dadada;
 
   --md-accent-fg-color: #885994; /*цвет текста при наведении gray 100*/
-  --md-accent-fg-color--transparent: #00680088;
-  --md-accent-bg-color: #00bb10;
-  --md-accent-bg-color--light: #00bb09;
+  --md-accent-fg-color--transparent: #201c27;
+  --md-accent-bg-color: #3d354b;
+  --md-accent-bg-color--light: #3d354b;
 
   --md-default-fg-color:        #F5F5F5;  /*цвет текста gray 100*/
   --md-default-fg-color--light: #EEEEEE;  /*цвет текста на h1 (#) gray 200*/
@@ -49,12 +49,12 @@
         word-break: break-word
     }
   .md-typeset a:hover {
-      color: #25bb00;
+      color: #885994;
       word-break: break-word
   }
   .md-typeset .admonition,.md-typeset details {
     background-color: #6d000734;
-    border: .075rem solid #00bb09;
+    border: .075rem solid #885994;
     border-radius: .2rem;
     box-shadow: var(--md-shadow-z1);
     color: #e0e0e0;
@@ -66,7 +66,7 @@
     transition: box-shadow 125ms
 }
   .md-typeset .admonition-title:before,.md-typeset summary:before {
-    background-color: #00bb10;
+    background-color: #885994;
     content: "";
     height: 1rem;
     -webkit-mask-image: var(--md-admonition-icon--note);
