@@ -16,12 +16,12 @@
   --md-default-fg-color:        #F5F5F5;  /*цвет текста gray 100*/
   --md-default-fg-color--light: #EEEEEE;  /*цвет текста на h1 (#) gray 200*/
   --md-default-fg-color--dark:  #BDBDBD; /*цвет gray 400*/
-  --md-default-bg-color:        #212121;  /*цвет фона gray 900*/
+  --md-default-bg-color:        #1e1f22;  /*цвет фона gray 900 212121*/
   --md-default-bg-color--light: #212121;
   --md-default-bg-color--lighter: #ffffff;
   --md-default-bg-color--lightest: #ffffff;
 
-  --md-footer-bg-color--dark: #000000;
+  --md-footer-bg-color--dark: #3d354b;
 
   .md-typeset h1{
     font-size: 3em;
@@ -53,7 +53,7 @@
       word-break: break-word
   }
   .md-typeset .admonition,.md-typeset details {
-    background-color: #6d000734;
+    background-color: #5b006d34;
     border: .075rem solid #885994;
     border-radius: .2rem;
     box-shadow: var(--md-shadow-z1);
@@ -82,7 +82,7 @@
     width: 1rem
 }
   .md-typeset .admonition-title,.md-typeset summary {
-    background-color: #ff44441a;
+    background-color: #f944ff1a;
     border: none;
     font-weight: 700;
     margin: 0 -.6rem;
