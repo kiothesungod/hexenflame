@@ -39,8 +39,8 @@
     }
 
   .md-typeset {
-    -webkit-print-color-adjust: exact;
-    color-adjust: exact;
+    /* -webkit-print-color-adjust: exact;
+    color-adjust: exact; */
     font-size: .7rem;
     line-height: 1.6
       }
