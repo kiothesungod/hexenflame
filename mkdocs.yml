@@ -1,7 +1,11 @@
 site_name: HEXENFLAME
 nav:
-  - О сеттинге: index.md
-  
+  - О сеттинге:
+    - Начало: start/index.md
+    - Кто я: start/who_am_i.md
+    - Ведьмовской огонь: start/hexenflame.md
+
+
   - Мир:
     - Языки: world/languages.md
     - Времяисчисление: world/time.md
@@ -9,7 +13,8 @@ nav:
     - Аспекты: 
       - Скрытые знания: world/aspects/hidden_lore.md
       - Магические традиции: world/aspects/magic_traditions.md
-  
+
+
   - Вера:
     - В начале времён: faith/the_beggining.md
     - Свет:
@@ -18,7 +23,8 @@ nav:
         - Ответвления веры: faith/light/trinity/faith_paths.md
       # - Дитя Света: 
       #   - Дитя Света: faith/light/child_of_light/about_child.md
-    
+
+
     - Старые Боги: 
       - О старых богах: faith/old_gods/about_old_gods.md
       - Эфермон: faith/old_gods/efermon.md
@@ -28,7 +34,8 @@ nav:
       - Айн-Дарра́х: faith/old_gods/ain-darrah.md
     
     - Нетленный: faith/father/about_father.md
-  
+
+
   - Государства и нации:
     - Святая Холархия: 
       - О Святой Холархии: nations/holy_holarchy/about_hh.md
@@ -45,7 +52,8 @@ nav:
     
     # - Вольные княжества:
     #   - Фалькенштайн: nations/free/falkenstein.md
-  
+
+
   - Культы:
     - Культы Нетленного: 
       - Культ Мёртвой Луны:
