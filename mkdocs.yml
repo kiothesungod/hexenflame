@@ -66,6 +66,7 @@ theme:
     code: 'Oswald Thin'
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.expand
     - navigation.path
     - search
