@@ -1,9 +1,12 @@
 site_name: HEXENFLAME
 nav:
   - О сеттинге:
-    - Начало: start/index.md
-    - Кто я: start/who_am_i.md
+    - Что такое HEXENFLAME: start/index.md
+    - Космогония: start/about_cosmogony.md
+    - Вопрос веры: start/about_faith.md
+    - Мир, доставшийся людям: start/about_story.md
     - Ведьмовской огонь: start/about_magic.md
+    - Кто я: start/who_am_i.md
 
 
   - Мир:
