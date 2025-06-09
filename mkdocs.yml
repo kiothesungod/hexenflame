@@ -2,7 +2,7 @@ site_name: HEXENFLAME
 nav:
   - О сеттинге:
     - Начало: start/index.md
-    - Кто я?: start/who_am_i.md
+    - Кто я: start/who_am_i.md
     - Ведьмовской огонь: start/about_magic.md
 
 
