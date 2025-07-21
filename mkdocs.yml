@@ -97,7 +97,6 @@ extra:
 plugins:
   - search
   - tags
-  - obsidian-bridge
 markdown_extensions:
   - abbr
   - admonition
