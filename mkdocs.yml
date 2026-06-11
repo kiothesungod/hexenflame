@@ -1,84 +1,42 @@
-site_name: HEXENFLAME
+site_name: Hexenflame
 nav:
-  - О сеттинге:
-    - Что такое HEXENFLAME: start/index.md
-    - Космогония: start/about_cosmogony.md
-    - Вопрос веры: start/about_faith.md
-    - Ведьмовской огонь: start/about_magic.md
-    - Мир, доставшийся людям: start/about_story.md
-    - Кто я: start/who_am_i.md
-    - Глоссарий: start/glossary.md
-
-
-  - Мир:
-    - Языки: world/languages.md
-    - Времяисчисление: world/time.md
-    - Деньги: world/money.md
-    - Аспекты: 
-      - Скрытые знания: world/aspects/hidden_lore.md
-      - Магические традиции: world/aspects/magic_traditions.md
-
-
-  - Вера:
-    - В начале времён: faith/the_beggining.md
-    - Свет:
-      - Триединство:
-        - Триединство: faith/light/trinity/about_trinity.md
-        - Ответвления веры: faith/light/trinity/faith_paths.md
-      # - Дитя Света: 
-      #   - Дитя Света: faith/light/child_of_light/about_child.md
-
-
-    - Старые Боги: 
-      - О старых богах: faith/old_gods/about_old_gods.md
-      - Эфермон: faith/old_gods/efermon.md
-      - Нан-Иза́ф: faith/old_gods/nan-izaf.md
-      - Сетхе́б: faith/old_gods/setheb.md
-      - Софода́н: faith/old_gods/sofodan.md
-      - Айн-Дарра́х: faith/old_gods/ain-darrah.md
-    
-    - Нетленный: faith/father/about_father.md
-
-
-  - Государства и нации:
-    - Святая Холархия: 
-      - О Святой Холархии: nations/holy_holarchy/about_hh.md
-      - Холоны: nations/holy_holarchy/holons_of_hh.md
-    
-    - Княжества Железного Колеса: 
-      - Оссильон: nations/iron_wheel/ossilion.md
-      # - Дюнхольц: nations/iron_wheel/dunholtz.md
-      # - Гарруаль: nations/iron_wheel/garrual.md
-      # - Эшенфаль: nations/iron_wheel/eshenfal.md
-      # - Люнн-Труа: nations/iron_wheel/lunn-trua.md
-      # - Золльланд: nations/iron_wheel/zolland.md]
-      # - Готтланд: nations/iron_wheel/gottland.md
-    
-    # - Вольные княжества:
-    #   - Фалькенштайн: nations/free/falkenstein.md
-
-
-  - Культы:
-    - Культы Нетленного: 
-      - Культ Мёртвой Луны:
-        - О культе: cults/father/dmc/about_dmc.md
-        - Догматы: cults/father/dmc/dogma_dmc.md
-        - Вера: cults/father/dmc/faith_dmc.md
-        - Прозелетизм: cults/father/dmc/proselytism_dmc.md
-        - Структура: cults/father/dmc/power_dmc.md
+  # - ВВЕДЕНИЕ:
+  #   - Вдохновение: hexenflame/00_introduction/insp.md
+  - ФРАГМЕНТЫ ИСТИНЫ:
+    - Космогония: hexenflame/01_fragments-of-truth/Cosmogony.md
+    - Вера и Боги: hexenflame/01_fragments-of-truth/Faith-and-Gods.md
+    - Ведьмовской Огонь: hexenflame/01_fragments-of-truth/Hexenflame.md
+    - Чёрные Псалмы: hexenflame/01_fragments-of-truth/Black-Psalms.md
+    - Вирмы: hexenflame/01_fragments-of-truth/Wyrms.md
+  - ЛЮДИ:
+    - Кровь и Происхождение: hexenflame/02_the-peoples/Blood-and-Origins.md
+    - Кто разделяет и властвует: hexenflame/02_the-peoples/Who-Divide-and-Rule.md
+  - СКИТАЛЬЦЫ:
+    - Резонансы: hexenflame/03_the-wanderers/Resonance.md
+    - Скиталец: hexenflame/03_the-wanderers/Wanderer.md
+    - Архетипы: hexenflame/03_the-wanderers/Archetypes.md
+  - ВЕРА, КУЛЬТЫ И УБЕЖДЕНИЯ:
+    - Правда о Новых Богах: hexenflame/04_faith-cult-and-beliefs/Truth-about-New-Gods.md
 
 theme: 
   name: 'material'
   palette:
-    primary: custom
-    accent: custom
-    scheme: slate
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   font:
     text: 'Roboto'
     code: 'Oswald Thin'
   features:
+    - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.tracking
     - navigation.expand
     - navigation.path
     - search
@@ -96,8 +54,17 @@ extra:
   generator: false
 plugins:
   - search
-  - tags
+  - autolinks
+  - tags:
+      enabled: true
+  - obsidian-bridge
+  - obsidian-support
+  - git-revision-date-localized
+extra_javascript:
+  - assets/javascripts/obsidian_tags.js
+  - assets/javascripts/graph_force.js
 markdown_extensions:
+  - nl2br
   - abbr
   - admonition
   - attr_list
@@ -107,4 +74,8 @@ markdown_extensions:
   - footnotes
   - md_in_html
   - meta
-  - neoteroi.timeline
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
