@@ -417,6 +417,15 @@
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.6) !important;
 }
 
+.md-typeset .admonition:not(.admonition-title) > p {
+  padding: 10px !important;
+}
+
+.md-typeset summary:before {
+visibility: none !important;
+}
+
+
 .md-typeset .admonition-title,
 .md-typeset summary {
   background-color: rgba(214, 183, 124, 0.1) !important;
@@ -426,15 +435,16 @@
   margin: 0 !important;
   border-bottom: 1px solid #2c2c2c !important;
   font-family: 'Roboto Condensed', sans-serif !important;
-  text-transform: uppercase !important;
+  /* text-transform: uppercase !important; */
   letter-spacing: 0.3px !important;
-  font-size: 11px !important;
+  /* font-size: 11px !important; */
 }
 
 .md-typeset .admonition-title::before,
 .md-typeset summary::before {
   background-color: #d6b77c !important;
   mask-size: contain !important;
+  visibility: hidden !important;
 }
 
 /* === SEARCH === */
