@@ -447,6 +447,12 @@ visibility: none !important;
   visibility: hidden !important;
 }
 
+.git-revision-date-localized-plugin .git-revision-date-localized-plugin-date {
+  font-family: 'Roboto Condensed', sans-serif !important;
+  font-size: 11px;
+  color: #cdcdcd !important;
+}
+
 /* === SEARCH === */
 .md-search {
   background-color: transparent !important;
