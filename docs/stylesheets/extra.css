@@ -435,7 +435,7 @@
 
 /* Геометрия Admonitions */
 .md-typeset .admonition, .md-typeset details { border: 1px solid !important; border-radius: 0.3rem !important; font-size: 13px !important; margin: 1.5em 0 !important; padding: 0 !important; }
-.md-typeset .admonition:not(.admonition-title) > p { padding: 10px !important; }
+.md-typeset .admonition:not(.admonition-title) > p { padding: 5px 10px 5px 10px !important; }
 .md-typeset summary:before { visibility: hidden !important; display: none !important; }
 .md-typeset .admonition-title, .md-typeset summary { font-weight: 600 !important; padding: 0.6rem 0.8rem !important; margin: 0 !important; border-bottom: 1px solid !important; font-family: 'Roboto Condensed', sans-serif !important; letter-spacing: 0.3px !important; }
 .md-typeset .admonition-title::before, .md-typeset summary::before { mask-size: contain !important; visibility: hidden !important; display: none !important; }
