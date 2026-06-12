@@ -112,7 +112,8 @@
   .md-search-result__meta { color: #888888 !important; background-color: rgba(214, 183, 124, 0.05) !important; border-bottom-color: #2c2c2c !important; }
   .md-search-result__item { border-bottom-color: #2c2c2c !important; }
   .md-search-result__link:hover { background-color: rgba(214, 183, 124, 0.05) !important; }
-  .md-search-result__icon.md-icon, .md-search-result__icon, .md-icon, svg.md-icon, [class*="md-icon"], .md-nav__icon, .md-nav__button, .md-nav__button .md-icon { color: #d6b77c !important; fill: #d6b77c !important; }
+  .md-search-result__icon.md-icon, .md-search-result__icon, .md-icon, svg.md-icon, [class*="md-icon"], .md-nav__icon, .md-nav__button, .md-nav__button .md-icon { color: #d6b77c !important; fill: #d6b77c !important;}
+  .md-search-result__icon { visibility: hidden; }
   .md-search-result__title { color: #d6b77c !important; }
   .md-search-result mark { background-color: rgba(214, 183, 124, 0.4) !important; }
   .md-search-result__more { background-color: rgba(214, 183, 124, 0.05) !important; border-top-color: #2c2c2c !important; color: #d6b77c !important; }
@@ -133,6 +134,53 @@
   }
   ::selection { background: rgba(214, 183, 124, 0.25) !important; }
   ::-webkit-scrollbar-thumb:hover { background: #d6b77c !important; }
+
+  /* ==========================================================================
+     РАЗНОЦВЕТНЫЕ ADMONITIONS (Для Obsidian типов в Темной теме)
+     ========================================================================== */
+
+  /* --- 1. EXAMPLE & ABSTRACT (Информационные / Книжные — Приглушенный синий) --- */
+  .md-typeset .admonition.example,  .md-typeset details.example,
+  .md-typeset .admonition.abstract, .md-typeset details.abstract {
+    background-color: #14191f !important; border-color: #4a7fa5 !important;
+  }
+  .md-typeset .admonition.example > .admonition-title,  .md-typeset details.example > summary,
+  .md-typeset .admonition.abstract > .admonition-title, .md-typeset details.abstract > summary {
+    background-color: rgba(74, 127, 165, 0.15) !important; color: #7cb2d6 !important;
+  }
+
+  /* --- 2. TIP & HINT (Положительные / Советы — Изумрудный зеленый) --- */
+  .md-typeset .admonition.tip,  .md-typeset details.tip,
+  .md-typeset .admonition.hint, .md-typeset details.hint {
+    background-color: #141f18 !important; border-color: #4aa56a !important;
+  }
+  .md-typeset .admonition.tip > .admonition-title,  .md-typeset details.tip > summary,
+  .md-typeset .admonition.hint > .admonition-title, .md-typeset details.hint > summary {
+    background-color: rgba(74, 165, 106, 0.15) !important; color: #7cd69b !important;
+  }
+
+  /* --- 3. WARNING & CAUTION (Внимание / Опасность — Тлеющий оранжевый) --- */
+  .md-typeset .admonition.warning, .md-typeset details.warning,
+  .md-typeset .admonition.caution, .md-typeset details.caution {
+    background-color: #1f1814 !important; border-color: #d86d2b !important;
+  }
+  .md-typeset .admonition.warning > .admonition-title, .md-typeset details.warning > summary,
+  .md-typeset .admonition.caution > .admonition-title, .md-typeset details.caution > summary {
+    background-color: rgba(216, 109, 43, 0.15) !important; color: #ff9b5e !important;
+  }
+
+  /* --- 4. FAILURE & BUG & DANGER (Критические угрозы — Мрачный багровый) --- */
+  .md-typeset .admonition.failure, .md-typeset details.failure,
+  .md-typeset .admonition.danger,  .md-typeset details.danger,
+  .md-typeset .admonition.bug,     .md-typeset details.bug {
+    background-color: #1f1414 !important; border-color: #a72828 !important;
+  }
+  .md-typeset .admonition.failure > .admonition-title, .md-typeset details.failure > summary,
+  .md-typeset .admonition.danger > .admonition-title,  .md-typeset details.danger > summary,
+  .md-typeset .admonition.bug > .admonition-title,     .md-typeset details.bug > summary {
+    background-color: rgba(167, 40, 40, 0.15) !important; color: #f77d7d !important;
+  }
+
 }
 
 /* ==========================================================================
@@ -272,6 +320,7 @@
   .md-search-result__link:hover { background-color: rgba(143, 115, 59, 0.03) !important; }
   .md-search-result__icon.md-icon, .md-search-result__icon, .md-icon, svg.md-icon, [class*="md-icon"], .md-nav__icon, .md-nav__button, .md-nav__button .md-icon { color: #8f733b !important; fill: #8f733b !important; }
   .md-search-result__title { color: #8f733b !important; }
+  .md-search-result__icon { visibility: hidden; }
   .md-search-result mark { background-color: rgba(143, 115, 59, 0.2) !important; }
   .md-search-result__more { background-color: rgba(143, 115, 59, 0.03) !important; border-top-color: #e9e5de !important; color: #8f733b !important; }
   .md-search-result__more summary { color: #8f733b !important; }
@@ -291,6 +340,53 @@
   }
   ::selection { background: rgba(143, 115, 59, 0.2) !important; }
   ::-webkit-scrollbar-thumb:hover { background: #8f733b !important; }
+
+  /* ==========================================================================
+     РАЗНОЦВЕТНЫЕ ADMONITIONS (Для Obsidian типов в Светлой теме)
+     ========================================================================== */
+
+  /* --- 1. EXAMPLE & ABSTRACT (Информационные / Книжные — Приглушенный синий) --- */
+  .md-typeset .admonition.example,  .md-typeset details.example,
+  .md-typeset .admonition.abstract, .md-typeset details.abstract {
+    background-color: #f5f8fa !important; border-color: #3b6b8f !important;
+  }
+  .md-typeset .admonition.example > .admonition-title,  .md-typeset details.example > summary,
+  .md-typeset .admonition.abstract > .admonition-title, .md-typeset details.abstract > summary {
+    background-color: rgba(59, 107, 143, 0.08) !important; color: #3b6b8f !important;
+  }
+
+  /* --- 2. TIP & HINT (Положительные / Советы — Лесной зеленый) --- */
+  .md-typeset .admonition.tip,  .md-typeset details.tip,
+  .md-typeset .admonition.hint, .md-typeset details.hint {
+    background-color: #f5faf6 !important; border-color: #3b8f5c !important;
+  }
+  .md-typeset .admonition.tip > .admonition-title,  .md-typeset details.tip > summary,
+  .md-typeset .admonition.hint > .admonition-title, .md-typeset details.hint > summary {
+    background-color: rgba(59, 143, 92, 0.08) !important; color: #3b8f5c !important;
+  }
+
+  /* --- 3. WARNING & CAUTION (Внимание / Опасность — Огонь / Терракота) --- */
+  .md-typeset .admonition.warning, .md-typeset details.warning,
+  .md-typeset .admonition.caution, .md-typeset details.caution {
+    background-color: #faf7f5 !important; border-color: #c85a17 !important;
+  }
+  .md-typeset .admonition.warning > .admonition-title, .md-typeset details.warning > summary,
+  .md-typeset .admonition.caution > .admonition-title, .md-typeset details.caution > summary {
+    background-color: rgba(200, 90, 23, 0.08) !important; color: #c85a17 !important;
+  }
+
+  /* --- 4. FAILURE & BUG & DANGER (Критические ошибки / Угрозы — Винный красный) --- */
+  .md-typeset .admonition.failure, .md-typeset details.failure,
+  .md-typeset .admonition.danger,  .md-typeset details.danger,
+  .md-typeset .admonition.bug,     .md-typeset details.bug {
+    background-color: #fdfafb !important; border-color: #8b1e1e !important;
+  }
+  .md-typeset .admonition.failure > .admonition-title, .md-typeset details.failure > summary,
+  .md-typeset .admonition.danger > .admonition-title,  .md-typeset details.danger > summary,
+  .md-typeset .admonition.bug > .admonition-title,     .md-typeset details.bug > summary {
+    background-color: rgba(139, 30, 30, 0.08) !important; color: #8b1e1e !important;
+  }
+
 }
 
 /* ==========================================================================
