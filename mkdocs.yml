@@ -17,8 +17,14 @@ nav:
     - Архетипы: hexenflame/03_the-wanderers/Archetypes.md
   - ВЕРА, КУЛЬТЫ И УБЕЖДЕНИЯ:
     - Правда о Новых Богах: hexenflame/04_faith-cult-and-beliefs/Truth-about-New-Gods.md
-  - НАУКА И ВОЙНА:
-    - Искусство Алхимии: hexenflame/05_science-and-war/Art-of-Alchemy.md
+  - СТАЛЬ И КРОВЬ:
+    - Искусство Алхимии: hexenflame/05_steel-and-blood/Art-of-Alchemy.md
+    - Боевые Навыки: hexenflame/05_steel-and-blood/MA_Martial-Skills.md
+    - Фехтбух: hexenflame/05_steel-and-blood/MA_Martial-Arts-Manual.md
+    - Общие стили: hexenflame/05_steel-and-blood/MA_Common-Styles.md
+    - Пути Святой Холархии: hexenflame/05_steel-and-blood/MA_Ways-of-Holy-Holarchy.md
+    - Боевые Школы Айзенмарок: hexenflame/05_steel-and-blood/MA_Eisenmark-Combat-Schools.md
+    - Искусства Павших Народов: hexenflame/05_steel-and-blood/MA_Arts-of-Fallen-Peoples.md
 
 theme: 
   name: 'material'
