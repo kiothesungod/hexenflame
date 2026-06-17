@@ -7,13 +7,13 @@
 > [!example] Путь Свещеносца (Way of Candlebearer) 5pts
 > **Требования**: -
 > **Навыки**: Staff; Broadsword; Shield; Theology (Trinity)
-> **Техники**: Retain Weapon (Staff), Disarm (Staff or Broadsword), Sweep 
+> **Техники**: Retain Weapon (Staff), Disarm (Staff or Broadsword), Sweep
 > **Мастерские Навыки**: -
 > **Мастерские Техники**: -
 > **Перки**: Form Mastery (Staff), Third Hand (DFDSwash)
-> 
+>
 > ---
-> 
+>
 > **ОПЦИОНАЛЬНЫЕ ЧЕРТЫ**:
 > **Преимущества**: Fit; True Faith; Improved ST; Combat Reflexes; High Pain Threshold;
 > **Недостатки**: Duty; Fanaticism
@@ -33,9 +33,9 @@
 > **Мастерские Навыки**: Whirlwind Attack (Any weapon skill in style), Power Blow, Kiai
 > **Мастерские Техники**: -
 > **Перки**: Shield-Wall Training, Sacrificial Block, Grip Mastery (Any weapon skill in style)
-> 
+>
 > ---
-> 
+>
 > **ОПЦИОНАЛЬНЫЕ ЧЕРТЫ**:
 > **Преимущества**: Very Fit; Hard to Kill (up to two levels); Hard to Subdue (up to two levels); Greater Weapon Bond; Improved ST; Improved HT;
 > **Недостатки**: Bloodlust; Overconfidence; Fanaticism (Extreme)
@@ -43,7 +43,7 @@
 > **Техники**: Targeted Attack (Broadsword Swing/Neck), Targeted Attack (Polearm Swing/Skull)
 > **Перки**: Suit Familiarity (Layered Armour)
 
-Достопочтимые воины-храмовники - Мотыльки - ультимативный аргумент Святой Холархии на полях сражений. Эти фанатичные воины, закованные в лучшую сталь, выступают в авангарде боевых отрядов, проламывая вражеский строй. 
+Достопочтимые воины-храмовники - Мотыльки - ультимативный аргумент Святой Холархии на полях сражений. Эти фанатичные воины, закованные в лучшую сталь, выступают в авангарде боевых отрядов, проламывая вражеский строй.
 Те, что посвятили себя стойке "Эгида", вооружаются тяжелыми башенными щитами и полуторными мечами. Они отказываются от мобильности, переходя в тяжелую оборону, неотличимую от наступления.
 Их братья, выбравшие стойку "Юридициум", берут в руки алебарды, выкашивая широкими ударами еретические шеренги или прижимая к земле отродий Тьмы.
 ## Путь Искупителя
@@ -55,9 +55,9 @@
 > **Мастерские Навыки**: Whirlwind Attack (Any weapon skill in style), Power Blow, Kiai
 > **Мастерские Техники**: Dual-Weapon Attack
 > **Перки**: Shield-Wall Training, Sacrificial Block, Grip Mastery (Any weapon skill in style)
-> 
+>
 > ---
-> 
+>
 > **ОПЦИОНАЛЬНЫЕ ЧЕРТЫ**:
 > **Преимущества**: Hard to Kill (up to three levels); Hard to Subdue (up to three levels); Improved ST; Improved HT; Damage Resistance (Tough Skin, up to two levels)
 > **Недостатки**: Bloodlust; Odious Personal Habit (Flagellation); Fanaticism (Extreme)
@@ -65,9 +65,9 @@
 > **Техники**: Targeted Attack (Two-Handed Flail or Flail Swing/Face)
 > **Перки**: Suit Familiarity (Layered Armour)
 
-Искусство тех фанатиков, которые посвятили себя искуплению Великого Греха через боль. Флагелланты не носят щитов или доспехов, предпочитая либо закалять себя плетьми до огрубения кожи, либо принимая мутагены Цитаделей Плача. 
-Они встают в стойку "Катенам" раскручивают над головой плети и тяжелые цепы, нередко пытаясь или опутать ими оружие врага, или сорвать лицо одним точным ударом. 
-Ловкие Искупители чаще принимают стойки "Стигмата", выбирая в качестве основного оружия кнут, опутывающий оружие, цепляющийся за руки, ноги и шею. Точные удары кнута отсекают пальцы, носы и выбивают глаза, но редко практикуются против бронированных противников. 
+Искусство тех фанатиков, которые посвятили себя искуплению Великого Греха через боль. Флагелланты не носят щитов или доспехов, предпочитая либо закалять себя плетьми до огрубения кожи, либо принимая мутагены Цитаделей Плача.
+Они встают в стойку "Катенам" раскручивают над головой плети и тяжелые цепы, нередко пытаясь или опутать ими оружие врага, или сорвать лицо одним точным ударом.
+Ловкие Искупители чаще принимают стойки "Стигмата", выбирая в качестве основного оружия кнут, опутывающий оружие, цепляющийся за руки, ноги и шею. Точные удары кнута отсекают пальцы, носы и выбивают глаза, но редко практикуются против бронированных противников.
 В отдалённых, более фанатичных фестунгах, ходят слухи про стойки "Игниль", использующие горящие цепы и огонь как оружие.
 ## Путь Баллистария
 > [!example] Путь Баллистария (Way of Ballistario) + 5pts
@@ -77,10 +77,10 @@
 > **Техники**: Retain Weapon (Crossbow); Targeted Attack (Crossbow Shot/Face); Targeted Attack (Crossbow Shot/Neck Chinks); Targeted Attack (Crossbow Shot/Vitals Chinks).
 > **Мастерские Навыки**: Blind Fighting; Zen Archery.
 > **Мастерские Техники**: -
-> **Перки**: Quick Reload (Hand-Drawn Crossbow); Special Exercises (Arm ST 1) up to four times; Crossbow Finesse; 
-> 
+> **Перки**: Quick Reload (Hand-Drawn Crossbow); Special Exercises (Arm ST 1) up to four times; Crossbow Finesse;
+>
 > ---
-> 
+>
 > **ОПЦИОНАЛЬНЫЕ ЧЕРТЫ**:
 > **Преимущества**: Acute Vision; Greater Weapon Bond (Crossbow); Increased Per;
 > **Недостатки**: Overconfidence
@@ -100,9 +100,9 @@
 > **Мастерские Навыки**: Mental Strength, Blind Fighting
 > **Мастерские Техники**: Dual-Weapon Attack (Broadsword and Main-Gauche)
 > **Перки**: -
-> 
+>
 > ---
-> 
+>
 > **ОПЦИОНАЛЬНЫЕ ЧЕРТЫ**:
 > **Преимущества**: Magic Resistance (up to five levels); Spellpiercer; Danger Sense; Increased Per; Increased Will; Increased Speed;
 > **Недостатки**: Intolerance (Spellcasters); Obsession (Slay Spellcasters); Stubbornness; Callous; Loner

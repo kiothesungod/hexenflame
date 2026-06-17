@@ -11,9 +11,9 @@
 > **Мастерские Навыки**: Power Blow, Push
 > **Мастерские Техники**: -
 > **Перки**: Grip Mastery (Spear)
-> 
+>
 > ---
-> 
+>
 > **ОПЦИОНАЛЬНЫЕ ЧЕРТЫ**:
 > **Преимущества**: Fit; Hard to Kill; Improved ST.
 > **Недостатки**: Social Stigma (Uneducated / Minority).
@@ -32,9 +32,9 @@
 > **Мастерские Навыки**: Blind Fighting
 > **Мастерские Техники**: Roll with Blow
 > **Перки**: Dirty Fighting
-> 
+>
 > ---
-> 
+>
 > **ОПЦИОНАЛЬНЫЕ ЧЕРТЫ**:
 > **Преимущества**: Fit; Hard to Kill, Improved DX.
 > **Недостатки**: Social Stigma (Criminal); Callous; Bloodlust
@@ -47,13 +47,13 @@
 > [!example] Вальдйагер (Waldjager) 5pts
 > **Требования**: -
 > **Навыки**: Bow or Crossbow; Stealth; Traps; Survival (Forest).
-> **Техники**: Retain Weapon (Bow or Crossbow), 
+> **Техники**: Retain Weapon (Bow or Crossbow),
 > **Мастерские Навыки**: Zen Archery
 > **Мастерские Техники**: -
 > **Перки**: Sure-Footed (Slippery), Quick Reload (Hand-Drawn Crossbow), Special Exercises (Arm ST 1 ) up to two times; Strongbow/Crossbow Finesse.
-> 
+>
 > ---
-> 
+>
 > **ОПЦИОНАЛЬНЫЕ ЧЕРТЫ**:
 > **Преимущества**: Improved Per, Acute Vision, Fit.
 > **Недостатки**: Loner

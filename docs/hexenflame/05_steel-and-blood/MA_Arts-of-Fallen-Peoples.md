@@ -13,9 +13,9 @@
 > **Мастерские Навыки**: Mental Strength; Power Blow; Blind Fighting.
 > **Мастерские Техники**: Dual-Weapon Defence (Spear); Whirlwind Attack (Spear).
 > **Перки**: Form Mastery (Spear); Grip Mastery (Spear); Off-Hand Weapon Training (Spear).
-> 
+>
 > ---
-> 
+>
 > **ОПЦИОНАЛЬНЫЕ ЧЕРТЫ**:
 > **Преимущества**: Combat Reflexes; High Pain Threshold
 > **Недостатки**: Code of Honor (Manvalite)
@@ -32,9 +32,9 @@
 > **Мастерские Навыки**: Mental Strength; Power Blow.
 > **Мастерские Техники**: Dual-Weapon Defense (Polearm or Staff); Whirlwind Attack (Polearm or Staff).
 > **Перки**: Form Mastery (Polearm); Grip Mastery (Polearm).
-> 
+>
 > ---
-> 
+>
 > **ОПЦИОНАЛЬНЫЕ ЧЕРТЫ**:
 > **Преимущества**: Combat Reflexes; Enhanced Parry (Polearm)
 > **Недостатки**: -
@@ -52,15 +52,15 @@
 > **Мастерские Навыки**: Flying Leap; Mental Strength; Precognitive Parry.
 > **Мастерские Техники**: Dual-Weapon Attack (Buckler or Shortsword); Dual-Weapon Defense (Buckler or Shortsword); Grand Disarm (Shortsword); Power Blow.
 > **Перки**: Sure-Footed (Uneven); Sure-Footed (Slippery); Pack Tactics.
-> 
+>
 > ---
-> 
+>
 > **ОПЦИОНАЛЬНЫЕ ЧЕРТЫ**:
 > **Преимущества**: Combat Reflexes; Danger Sense; Enhanced Block; Enhanced Parry (Shortsword).
 > **Недостатки**: Overconfidence.
 > **Навыки**: Acrobatics; Fast-Draw (Sword); Jumping; Knife; Parry Missile Weapons; Knife.
 > **Техники**: -
-> **Перки**: Weapon Bond. 
+> **Перки**: Weapon Bond.
 
 Искусство Акрит устоялось у пограничных войск, вступавших в бой с асшарскими мечниками. Парные клинки были огромной угрозой, от чего даже южане взялись за оборону, пусть и предпочтя удобный баклер, а не полноразмерный щит. Комбинируя ловкие выпады, обманные удары и провокации щитом, они выводят асшаров из состояния "танца", ловят момент и быстрым ударом короткого меча рассекают шеи.
 ### Сагитта
@@ -71,9 +71,9 @@
 > **Мастерские Навыки**: Mental Strength; Pressure Points (Bow); Zen Archery.
 > **Мастерские Техники**: Pressure-Point Strike.
 > **Перки**: Strongbow; Technique Adaptation (Targeted Attack).
-> 
+>
 > ---
-> 
+>
 > **ОПЦИОНАЛЬНЫЕ ЧЕРТЫ**:
 > **Преимущества**: Improved Per; Acute Vision; Special Exercises (Arm ST 1) up to three times; Greater Weapon Bond (Bow);
 > **Недостатки**: -
@@ -96,9 +96,9 @@
 > **Мастерские Навыки**: Power Blow; Immovable Stance.
 > **Мастерские Техники**: Dual-Weapon Attack (Kusari or Knife); Binding.
 > **Перки**: Grip Mastery (Kusarigama); Off-Hand Weapon Training (Kusari); Unusual Training (Dual-Weapon Attack, Both attacks must target the same foe); Special Setup (Kusari Parry > Arm Lock); Sure-Footed (Slippery/Sand).
-> 
+>
 > ---
-> 
+>
 > **ОПЦИОНАЛЬНЫЕ ЧЕРТЫ**:
 > **Преимущества**: Combat Reflexes; Less Sleep (up to two levels); Reduced Consumption (up to two levels); Flexibility; Fit.
 > **Недостатки**: Bloodlust; Overconfidence.
@@ -117,18 +117,18 @@ Zirar (Зирар / Отравленный шип)
 > **Мастерские Навыки**: Power Blow; Lethal Kick; Roll with Blow; Springing Attack (Karate); Pressure Points (Knife and Unarmed); Pressure Secrets (Knife and Unarmed).
 > **Мастерские Техники**: Dual-Weapon Attack (Knife or Wrestling); Fighting While Seated (Knife).
 > **Перки**: Retroactive Poisoning (PY03/61), Third Hand; Off-Hand Weapon Training (Knife); Quick-Swap (Knife); Rapid Retraction (Kicks); Technique Adaptation (Low Fighting); Sure-Footed (Slippery/Sand).
-> 
+>
 > ---
-> 
+>
 > **ОПЦИОНАЛЬНЫЕ ЧЕРТЫ**:
 > **Преимущества**: Improved IQ; Improved DX; Combat Reflexes; Fit.
 > **Недостатки**: Bloodlust; Callous; Loner.
 > **Навыки**: Meditation; Jumping; Garrote; Climbing; Streetwise; Acrobatics;
 > **Техники**: Acrobatic Stand.
-> **Перки**: Special Exercises (Striking ST 1) up to two times; Weapon Bond; 
+> **Перки**: Special Exercises (Striking ST 1) up to two times; Weapon Bond;
 
 Искусство Зирар заставляет напрягаться даже офицеров фестунгов, что уж говорить про южан. Асшарские убийцы выбирают ножи и яды - самое бесчестное из оружий, которое не щадит даже самых опытных мастеров. Их бой - не прямое столкновение, а охота, длящаяся многими днями. Убийцы выслеживают самые опасные цели и медленно сближаются с ними, либо сливаясь с тенями, либо растворяясь в толпе. Один точный удар ниже груди - и в нутро проникает яд, заставляющий навсегда замереть в удушающих судорогах.
-Мастера Зирара хороши не только в понимании ядов, но и в устройстве человеческого тела. Даже их точные удары руками в сухожилия повреждают конечности так, что они становятся недееспособными на короткое время. Которого обычно достаточно, чтобы задушить безоружного врага голыми руками. 
+Мастера Зирара хороши не только в понимании ядов, но и в устройстве человеческого тела. Даже их точные удары руками в сухожилия повреждают конечности так, что они становятся недееспособными на короткое время. Которого обычно достаточно, чтобы задушить безоружного врага голыми руками.
 ### Сараб
 > [!example] Сараб (Sarab) 5pts
 > **Требования**: -
@@ -137,9 +137,9 @@ Zirar (Зирар / Отравленный шип)
 > **Мастерские Навыки**: Power Blow; Blind Fighting.
 > **Мастерские Техники**: Dual-Weapon Defense (Saber).
 > **Перки**: Off-Hand Weapon Training (Saber); Sure-Footed (Slippery/Sand); Acrobatic Feints (Dancing/Acrobatics); Dirty Fighting
-> 
+>
 > ---
-> 
+>
 > **ОПЦИОНАЛЬНЫЕ ЧЕРТЫ**:
 > **Преимущества**: Ambidexterity; Improved DX; Combat Reflexes; Flexibility; Enhanced Parry (Saber).
 > **Недостатки**: Bloodlust; Overconfidence.
@@ -147,7 +147,7 @@ Zirar (Зирар / Отравленный шип)
 > **Техники**: Acrobatic Stand; Sweep (Karate).
 > **Перки**: Special Exercises (Striking ST 1) up to two times; Weapon Bond; Quick-Sheathe (Saber).
 
-Искусство Сараб вышло из одноименных асшарских танцев с парными мечами, сочетающих ловкие неожиданные удары и акробатические увороты, схожие с танцевальными пируэтами. Постигая искусство парных клинков, они мягко огибают удары врагов в уклонениях или искусно парируют, открывая врага для контратаки. Их излюбленные атаки - удар из разворота, рассекающий шею и укол острым концом сабли, рассекая незащищённое брюхо.  
+Искусство Сараб вышло из одноименных асшарских танцев с парными мечами, сочетающих ловкие неожиданные удары и акробатические увороты, схожие с танцевальными пируэтами. Постигая искусство парных клинков, они мягко огибают удары врагов в уклонениях или искусно парируют, открывая врага для контратаки. Их излюбленные атаки - удар из разворота, рассекающий шею и укол острым концом сабли, рассекая незащищённое брюхо.
 ### Сайяр
 > [!example] Сайяар (Sayyar) 5pts
 > **Требования**: -
@@ -156,9 +156,9 @@ Zirar (Зирар / Отравленный шип)
 > **Мастерские Навыки**: Power Blow; Push;
 > **Мастерские Техники**: -
 > **Перки**: Sure-Footed (Slippery/Sand); Grip Mastery (Tonfa)
-> 
+>
 > ---
-> 
+>
 > **ОПЦИОНАЛЬНЫЕ ЧЕРТЫ**:
 > **Преимущества**: Fit.
 > **Недостатки**: Social Stigma (Minority/Nomad)
