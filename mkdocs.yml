@@ -27,12 +27,12 @@ nav:
     - Искусство Алхимии: hexenflame/05_steel-and-blood/Art-of-Alchemy.md
     - Арсенал Отчаяния: hexenflame/05_steel-and-blood/Arsenal-of-Despair.md
     - Фехтбух:
-      - Боевые Навыки: hexenflame/05_steel-and-blood/MA_Martial-Skills.md
-      - Заглавная: hexenflame/05_steel-and-blood/MA_Martial-Arts-Manual.md
-      - Общие стили: hexenflame/05_steel-and-blood/MA_Common-Styles.md
-      - Пути Святой Холархии: hexenflame/05_steel-and-blood/MA_Ways-of-Holy-Holarchy.md
-      - Боевые Школы Айзенмарок: hexenflame/05_steel-and-blood/MA_Eisenmark-Combat-Schools.md
-      - Искусства Павших Народов: hexenflame/05_steel-and-blood/MA_Arts-of-Fallen-Peoples.md
+      - Боевые Навыки: hexenflame/05_steel-and-blood/MA/Martial-Skills.md
+      - Заглавная: hexenflame/05_steel-and-blood/MA/Martial-Arts-Manual.md
+      - Общие стили: hexenflame/05_steel-and-blood/MA/Common-Styles.md
+      - Пути Святой Холархии: hexenflame/05_steel-and-blood/MA/Ways-of-Holy-Holarchy.md
+      - Боевые Школы Айзенмарок: hexenflame/05_steel-and-blood/MA/Eisenmark-Combat-Schools.md
+      - Искусства Павших Народов: hexenflame/05_steel-and-blood/MA/Arts-of-Fallen-Peoples.md
 
 theme: 
   name: 'material'
