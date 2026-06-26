@@ -131,3 +131,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/docs/hexenflame/Campaigns
+/docs/hexenflame/WIP
