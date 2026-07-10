@@ -39,6 +39,9 @@ nav:
       - Пути Святой Холархии: hexenflame/05_steel-and-blood/MA/Ways-of-Holy-Holarchy.md
       - Боевые Школы Айзенмарок: hexenflame/05_steel-and-blood/MA/Eisenmark-Combat-Schools.md
       - Искусства Павших Народов: hexenflame/05_steel-and-blood/MA/Arts-of-Fallen-Peoples.md
+  - ОХОТА:
+    - Ягенкунст: hexenflame/07_jagenkunst/Jagenkunst.md
+    - Враги Человека: hexenflame/07_jagenkunst/Enemies-of-Man.md
 
 theme: 
   name: 'material'
