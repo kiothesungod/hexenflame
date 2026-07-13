@@ -12,8 +12,8 @@ nav:
     - Кровь и Происхождение: hexenflame/02_the-peoples/Blood-and-Origins.md
     - Кто разделяет и властвует: hexenflame/02_the-peoples/Who-Divide-and-Rule.md
   - СКИТАЛЬЦЫ:
-    - Резонансы: hexenflame/03_the-wanderers/Resonance.md
     - Скиталец: hexenflame/03_the-wanderers/Wanderer.md
+    - Резонансы: hexenflame/03_the-wanderers/Resonance.md
     - Архетипы: hexenflame/03_the-wanderers/Archetypes.md
   - ВЕРА, КУЛЬТЫ И УБЕЖДЕНИЯ:
     - Метафизика:
@@ -79,6 +79,7 @@ extra:
   generator: false
 plugins:
   - search
+  - mermaid2
   - autolinks
   - tags:
       enabled: true
