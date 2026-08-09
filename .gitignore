@@ -133,3 +133,7 @@ dmypy.json
 .pyre/
 /docs/hexenflame/Campaigns
 /docs/hexenflame/WIP
+docs/hexenflame/Scratchpad.md
+docs/hexenflame/00_intoduction/Index.md
+/docs/hexenflame/00_intoduction
+/docs/hexenflame/00_wip
