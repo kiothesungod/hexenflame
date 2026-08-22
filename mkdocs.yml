@@ -13,8 +13,8 @@ nav:
       - Кровь и Происхождение: hexenflame/02_the-peoples/Dwellers/Blood-and-Origins.md
     - Власть:
       - Кто разделяет и властвует: hexenflame/02_the-peoples/Power/Who-Divide-and-Rule.md
-    - Быт:
-      - Бытовое колдовство: hexenflame/02_the-peoples/Lifeways/Common-Sorcery.md
+    # - Быт:
+      # - Бытовое колдовство: hexenflame/02_the-peoples/Lifeways/Common-Sorcery.md
   - СКИТАЛЬЦЫ:
     - Происхождение:
       - Скиталец: hexenflame/03_the-wanderers/Wanderer.md
