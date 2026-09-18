@@ -1,0 +1,475 @@
+/* HexenflameUI Material Edition v2.0 - Fixed Theme Switching */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700&display=swap');
+
+/* ==========================================================================
+   ТЕМНАЯ ТЕМА (SLATE) - Твой оригинальный дизайн
+   ========================================================================== */
+[data-md-color-scheme="slate"] {
+  color-scheme: dark;
+  
+  /* === CSS VARIABLES === */
+  --md-primary-fg-color: #1f1f1f !important;
+  --md-primary-fg-color--light: #2c2c2c !important;
+  --md-primary-fg-color--dark: #121212 !important;
+  --md-primary-bg-color: #cdcdcd !important;
+  --md-primary-bg-color--light: #e0e0e0 !important;
+  --md-accent-fg-color: #d6b77c !important;
+  --md-accent-fg-color--transparent: rgba(214, 183, 124, 0.1) !important;
+  --md-accent-bg-color: #1f1f1f !important;
+  --md-accent-bg-color--light: #2c2c2c !important;
+  --md-default-fg-color: #cdcdcd !important;
+  --md-default-fg-color--light: #b8b8b8 !important;
+  --md-default-fg-color--lighter: #888888 !important;
+  --md-default-fg-color--lightest: #444444 !important;
+  --md-default-bg-color: #121212 !important;
+  --md-default-bg-color--light: #1f1f1f !important;
+  --md-default-bg-color--lighter: #1b1b1b !important;
+  --md-default-bg-color--lightest: #292929 !important;
+  --md-code-fg-color: #d6b77c !important;
+  --md-code-bg-color: #1b1b1b !important;
+  --md-code-hl-color: rgba(214, 183, 124, 0.15) !important;
+  --md-code-hl-number-color: #f7d28d !important;
+  --md-code-hl-special-color: #d6b77c !important;
+  --md-code-hl-function-color: #d6b77c !important;
+  --md-code-hl-constant-color: #f7d28d !important;
+  --md-code-hl-keyword-color: #d6b77c !important;
+  --md-code-hl-string-color: #b8b8b8 !important;
+  --md-code-hl-name-color: #cdcdcd !important;
+  --md-code-hl-operator-color: #888888 !important;
+  --md-code-hl-punctuation-color: #888888 !important;
+  --md-code-hl-comment-color: #444444 !important;
+  --md-code-hl-generic-color: #888888 !important;
+  --md-code-hl-variable-color: #cdcdcd !important;
+  --md-footer-fg-color: #888888 !important;
+  --md-footer-fg-color--light: #b8b8b8 !important;
+  --md-footer-fg-color--lighter: #cdcdcd !important;
+  --md-footer-bg-color: #121212 !important;
+  --md-footer-bg-color--dark: #1f1f1f !important;
+  --md-shadow-z1: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.6) !important;
+  --md-shadow-z2: 0 0.2rem 1rem rgba(0, 0, 0, 0.7) !important;
+  --md-shadow-z3: 0 0.4rem 1.5rem rgba(0, 0, 0, 0.8) !important;
+  --md-typeset-kbd-color: #cdcdcd !important;
+  --md-typeset-kbd-accent-color: #d6b77c !important;
+  --md-typeset-kbd-border-color: #2c2c2c !important;
+  --md-typeset-mark-color: rgba(214, 183, 124, 0.5) !important;
+  --md-typeset-color: #cdcdcd !important;
+  --md-typeset-table-color: #cdcdcd !important;
+  --md-typeset-table-color--light: #b8b8b8 !important;
+  --md-admonition-fg-color: #cdcdcd !important;
+  --md-admonition-bg-color: #1b1b1b !important;
+  --md-typeset-a-color: #d6b77c !important;
+
+  /* === СТИЛИ ТЕКСТА И КОНТЕНТА ДЛЯ ТЕМНОЙ ТЕМЫ === */
+  .md-typeset { color: #cdcdcd !important; }
+  .md-typeset p { color: #cdcdcd !important; }
+  .md-typeset h1 { color: #d6b77c !important; }
+  .md-typeset h2 { color: #f7d28d !important; }
+  .md-typeset h3 { color: #c0a060 !important; }
+  .md-typeset h4 { color: #999999 !important; }
+  .md-typeset a { color: #d6b77c !important; }
+  .md-typeset a:hover { color: #f7d28d !important; }
+  
+  .md-main, .md-content, .md-content__inner { background-color: #121212 !important; }
+  
+  /* Таблицы */
+  .md-typeset table:not([class]) { background-color: #1f1f1f !important; border-color: #2c2c2c !important; }
+  .md-typeset table:not([class]) th { background-color: #1b1b1b !important; color: #d6b77c !important; border-color: #2c2c2c !important; }
+  .md-typeset table:not([class]) td { border-color: #2c2c2c !important; color: #cdcdcd !important; }
+  .md-typeset table:not([class]) tr:hover { background-color: #444444 !important; }
+  
+  /* Блоки кода */
+  .md-typeset pre { background-color: #1b1b1b !important; border-color: #2c2c2c !important; color: #cdcdcd !important; }
+  .md-typeset code { background-color: #292929 !important; color: #d6b77c !important; border-color: #2c2c2c !important; }
+  
+  /* Admonitions */
+  .md-typeset .admonition, .md-typeset details { background-color: #1b1b1b !important; border-color: #d6b77c !important; color: #cdcdcd !important; box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.6) !important; }
+  .md-typeset .admonition-title, .md-typeset summary { background-color: rgba(214, 183, 124, 0.1) !important; color: #d6b77c !important; border-bottom-color: #2c2c2c !important; }
+  .md-typeset .admonition-title::before, .md-typeset summary::before { background-color: #d6b77c !important; }
+  
+  /* Навигация, Поиск и Иконки */
+  .md-header { background-color: #1f1f1f !important; color: #cdcdcd !important; }
+  .md-header__title { color: #d6b77c !important; }
+  .md-tabs { background-color: #1f1f1f !important; border-bottom-color: #2c2c2c !important; }
+  .md-tabs__link { color: #888888 !important; }
+  .md-tabs__link:hover, .md-tabs__link--active, .md-tabs__item--active .md-tabs__link { color: #d6b77c !important; }
+  .md-nav__title { color: #d6b77c !important; }
+  .md-nav__link { color: #cdcdcd !important; }
+  .md-nav__link:hover, .md-nav__link--active, .md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link { color: #d6b77c !important; }
+  .md-nav--secondary .md-nav__title { color: #d6b77c !important; }
+  .md-nav--secondary .md-nav__link { color: #888888 !important; }
+  .md-nav--secondary .md-nav__link:hover { color: #d6b77c !important; }
+  .md-nav--secondary .md-nav__link--active { color: #d6b77c !important; border-left-color: #d6b77c !important; }
+  
+  .md-search__form { background-color: #1b1b1b !important; border-color: #2c2c2c !important; }
+  .md-search__input { color: #cdcdcd !important; }
+  .md-search__input:focus { border-color: #d6b77c !important; }
+  .md-search__icon { color: #d6b77c !important; }
+  .md-search__output { background-color: #1b1b1b !important; border-color: #2c2c2c !important; color: #cdcdcd !important; }
+  .md-search__output .md-typeset h1, .md-search__output .md-typeset h2, .md-search__output .md-typeset h3, .md-search__output .md-typeset a { color: #d6b77c !important; }
+  .md-search-result { border-bottom-color: #2c2c2c !important; }
+  .md-search-result:hover { background-color: rgba(214, 183, 124, 0.1) !important; }
+  .md-search-result__meta { color: #888888 !important; background-color: rgba(214, 183, 124, 0.05) !important; border-bottom-color: #2c2c2c !important; }
+  .md-search-result__item { border-bottom-color: #2c2c2c !important; }
+  .md-search-result__link:hover { background-color: rgba(214, 183, 124, 0.05) !important; }
+  .md-search-result__icon.md-icon, .md-search-result__icon, .md-icon, svg.md-icon, [class*="md-icon"], .md-nav__icon, .md-nav__button, .md-nav__button .md-icon { color: #d6b77c !important; fill: #d6b77c !important;}
+  .md-search-result__icon { visibility: hidden; }
+  .md-search-result__title { color: #d6b77c !important; }
+  .md-search-result mark { background-color: rgba(214, 183, 124, 0.4) !important; }
+  .md-search-result__more { background-color: rgba(214, 183, 124, 0.05) !important; border-top-color: #2c2c2c !important; color: #d6b77c !important; }
+  .md-search-result__more summary { color: #d6b77c !important; }
+  .md-search-result__more summary:hover { background-color: rgba(214, 183, 124, 0.1) !important; color: #f7d28d !important; }
+  .md-search-result__more[open] { background-color: rgba(214, 183, 124, 0.03) !important; }
+  .md-search-result__more[open] summary { border-bottom-color: #2c2c2c !important; }
+  .md-search__scrollwrap::-webkit-scrollbar-thumb { background-color: #d6b77c !important; }
+  .md-search__scrollwrap::-webkit-scrollbar-track { background-color: #2c2c2c !important; }
+  .md-search__scrollwrap { scrollbar-color: #d6b77c #2c2c2c !important; }
+  
+  .md-footer { background-color: #121212 !important; border-top-color: #2c2c2c !important; }
+  .md-footer__title { color: #d6b77c !important; }
+  .md-footer-meta { background-color: #1f1f1f !important; border-top-color: #2c2c2c !important; }
+  
+  @media screen and (max-width: 76.1875em) {
+    .md-nav--primary .md-nav__title { background-color: #d6b77c !important; color: #121212 !important; }
+  }
+  ::selection { background: rgba(214, 183, 124, 0.25) !important; }
+  ::-webkit-scrollbar-thumb:hover { background: #d6b77c !important; }
+
+  /* ==========================================================================
+     РАЗНОЦВЕТНЫЕ ADMONITIONS (Для Obsidian типов в Темной теме)
+     ========================================================================== */
+
+  /* --- 1. EXAMPLE & ABSTRACT (Информационные / Книжные — Приглушенный синий) --- */
+  .md-typeset .admonition.example,  .md-typeset details.example,
+  .md-typeset .admonition.abstract, .md-typeset details.abstract {
+    background-color: #14191f !important; border-color: #4a7fa5 !important;
+  }
+  .md-typeset .admonition.example > .admonition-title,  .md-typeset details.example > summary,
+  .md-typeset .admonition.abstract > .admonition-title, .md-typeset details.abstract > summary {
+    background-color: rgba(74, 127, 165, 0.15) !important; color: #7cb2d6 !important;
+  }
+
+  /* --- 2. TIP & HINT (Положительные / Советы — Изумрудный зеленый) --- */
+  .md-typeset .admonition.tip,  .md-typeset details.tip,
+  .md-typeset .admonition.hint, .md-typeset details.hint {
+    background-color: #141f18 !important; border-color: #4aa56a !important;
+  }
+  .md-typeset .admonition.tip > .admonition-title,  .md-typeset details.tip > summary,
+  .md-typeset .admonition.hint > .admonition-title, .md-typeset details.hint > summary {
+    background-color: rgba(74, 165, 106, 0.15) !important; color: #7cd69b !important;
+  }
+
+  /* --- 3. WARNING & CAUTION (Внимание / Опасность — Тлеющий оранжевый) --- */
+  .md-typeset .admonition.warning, .md-typeset details.warning,
+  .md-typeset .admonition.caution, .md-typeset details.caution {
+    background-color: #1f1814 !important; border-color: #d86d2b !important;
+  }
+  .md-typeset .admonition.warning > .admonition-title, .md-typeset details.warning > summary,
+  .md-typeset .admonition.caution > .admonition-title, .md-typeset details.caution > summary {
+    background-color: rgba(216, 109, 43, 0.15) !important; color: #ff9b5e !important;
+  }
+
+  /* --- 4. FAILURE & BUG & DANGER (Критические угрозы — Мрачный багровый) --- */
+  .md-typeset .admonition.failure, .md-typeset details.failure,
+  .md-typeset .admonition.danger,  .md-typeset details.danger,
+  .md-typeset .admonition.bug,     .md-typeset details.bug {
+    background-color: #1f1414 !important; border-color: #a72828 !important;
+  }
+  .md-typeset .admonition.failure > .admonition-title, .md-typeset details.failure > summary,
+  .md-typeset .admonition.danger > .admonition-title,  .md-typeset details.danger > summary,
+  .md-typeset .admonition.bug > .admonition-title,     .md-typeset details.bug > summary {
+    background-color: rgba(167, 40, 40, 0.15) !important; color: #f77d7d !important;
+  }
+
+}
+
+/* ==========================================================================
+   СВЕТЛАЯ ТЕМА (LIGHT) - Мод на «Оскверненное золото» (Старая бронза)
+   ========================================================================== */
+[data-md-color-scheme="light"] {
+  color-scheme: light;
+  
+  /* === PRIMARY COLORS (Navigation, Header) === */
+  --md-primary-fg-color: #cdcdcd !important; 
+  --md-primary-fg-color--light: #e0e0e0 !important;
+  --md-primary-fg-color--dark: #b8b8b8 !important;
+  --md-primary-bg-color: #1f1f1f !important;
+  --md-primary-bg-color--light: #2c2c2c !important;
+  
+  /* === ACCENT COLORS (Links, Highlights) === */
+  /* Благородный цвет старой бронзы вместо ядовитого красного */
+  --md-accent-fg-color: #8f733b !important; 
+  --md-accent-fg-color--transparent: rgba(143, 115, 59, 0.1) !important;
+  --md-accent-bg-color: #fcfbfa !important;       /* Мягкий пергаментный оттенок */
+  --md-accent-bg-color--light: #ffffff !important;
+  
+  /* === DEFAULT COLORS (Main Content) === */
+  /* Текст сделали чуть мягче (угольно-черный), чтобы он гармонировал с бронзой */
+  --md-default-fg-color: #1e1e1e !important;       /* Основной текст */
+  --md-default-fg-color--light: #444444 !important; /* Второстепенный текст */
+  --md-default-fg-color--lighter: #666666 !important;
+  --md-default-fg-color--lightest: #999999 !important;
+  --md-default-bg-color: #ffffff !important;       /* Главный фон */
+  --md-default-bg-color--light: #f9f8f6 !important; /* Мягкий подтон для карточек */
+  --md-default-bg-color--lighter: #f3f1ed !important;
+  --md-default-bg-color--lightest: #e9e5de !important;
+  
+  /* === CODE COLORS === */
+  /* Код теперь глубокого темно-коричневого оттенка, отлично читается */
+  --md-code-fg-color: #6b5428 !important; 
+  --md-code-bg-color: #f9f8f6 !important; 
+  --md-code-hl-color: rgba(143, 115, 59, 0.08) !important;
+  --md-code-hl-number-color: #a38446 !important;      
+  --md-code-hl-special-color: #6b5428 !important;     
+  --md-code-hl-function-color: #6b5428 !important;    
+  --md-code-hl-constant-color: #a38446 !important;    
+  --md-code-hl-keyword-color: #8f733b !important;     
+  --md-code-hl-string-color: #555555 !important;      
+  --md-code-hl-name-color: #1e1e1e !important;
+  --md-code-hl-operator-color: #666666 !important;
+  --md-code-hl-punctuation-color: #666666 !important;
+  --md-code-hl-comment-color: #888888 !important;     
+  --md-code-hl-generic-color: #666666 !important;
+  --md-code-hl-variable-color: #1e1e1e !important;
+  
+  /* === FOOTER === */
+  --md-footer-fg-color: #666666 !important;
+  --md-footer-fg-color--light: #444444 !important;
+  --md-footer-fg-color--lighter: #1e1e1e !important;
+  --md-footer-bg-color: #f3f1ed !important;
+  --md-footer-bg-color--dark: #e9e5de !important;
+  
+  /* === SHADOWS === */
+  /* Тени в тон старой бумаги */
+  --md-shadow-z1: 0 0.2rem 0.5rem rgba(143, 115, 59, 0.05) !important;
+  --md-shadow-z2: 0 0.2rem 1rem rgba(143, 115, 59, 0.08) !important;
+  --md-shadow-z3: 0 0.4rem 1.5rem rgba(143, 115, 59, 0.12) !important;
+  
+  /* === KEYBOARD === */
+  --md-typeset-kbd-color: #1e1e1e !important;
+  --md-typeset-kbd-accent-color: #8f733b !important;
+  --md-typeset-kbd-border-color: #e9e5de !important;
+  
+  /* === MARK/SELECTION === */
+  /* Выделение маркером теперь как старый золотистый хайлайтер */
+  --md-typeset-mark-color: rgba(143, 115, 59, 0.2) !important;
+  --md-typeset-color: #1e1e1e !important;
+  
+  /* === TABLE COLORS === */
+  --md-typeset-table-color: #1e1e1e !important;
+  --md-typeset-table-color--light: #444444 !important;
+  
+  /* === ADMONITION COLORS === */
+  --md-admonition-fg-color: #1e1e1e !important;
+  --md-admonition-bg-color: #f9f8f6 !important;
+  
+  /* === LINKS === */
+  --md-typeset-a-color: #8f733b !important;
+
+  /* === СТИЛИ ТЕКСТА И КОНТЕНТА ДЛЯ СВЕТЛОЙ ТЕМЫ === */
+  .md-typeset { color: #1e1e1e !important; }
+  .md-typeset p { color: #1e1e1e !important; }
+  .md-typeset h1 { color: #6b5428 !important; }
+  .md-typeset h2 { color: #8f733b !important; }
+  .md-typeset h3 { color: #a38446 !important; }
+  .md-typeset h4 { color: #666666 !important; }
+  .md-typeset a { color: #8f733b !important; }
+  .md-typeset a:hover { color: #6b5428 !important; }
+  
+  .md-main, .md-content, .md-content__inner { background-color: #ffffff !important; }
+  
+  /* Таблицы */
+  .md-typeset table:not([class]) { background-color: #f9f8f6 !important; border-color: #e9e5de !important; }
+  .md-typeset table:not([class]) th { background-color: #e9e5de !important; color: #6b5428 !important; border-color: #e9e5de !important; }
+  .md-typeset table:not([class]) td { border-color: #e9e5de !important; color: #1e1e1e !important; }
+  .md-typeset table:not([class]) tr:hover { background-color: #e9e5de !important; }
+  
+  /* Блоки кода */
+  .md-typeset pre { background-color: #f9f8f6 !important; border-color: #e9e5de !important; color: #1e1e1e !important; }
+  .md-typeset code { background-color: #e9e5de !important; color: #6b5428 !important; border-color: #e9e5de !important; }
+  
+  /* Admonitions */
+  .md-typeset .admonition, .md-typeset details { background-color: #f9f8f6 !important; border-color: #8f733b !important; color: #1e1e1e !important; box-shadow: 0 0.2rem 0.5rem rgba(143, 115, 59, 0.05) !important; }
+  .md-typeset .admonition-title, .md-typeset summary { background-color: rgba(143, 115, 59, 0.08) !important; color: #8f733b !important; border-bottom-color: #e9e5de !important; }
+  .md-typeset .admonition-title::before, .md-typeset summary::before { background-color: #8f733b !important; }
+  
+  /* Навигация, Поиск и Иконки */
+  .md-header { background-color: #1f1f1f !important; color: #cdcdcd !important; }
+  .md-header__title { color: #8f733b !important; }
+  .md-tabs { background-color: #1f1f1f !important; border-bottom-color: #2c2c2c !important; }
+  .md-tabs__link { color: #888888 !important; }
+  .md-tabs__link:hover, .md-tabs__link--active, .md-tabs__item--active .md-tabs__link { color: #8f733b !important; }
+  .md-nav__title { color: #8f733b !important; }
+  .md-nav__link { color: #444444 !important; }
+  .md-nav__link:hover, .md-nav__link--active, .md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link { color: #8f733b !important; }
+  .md-nav--secondary .md-nav__title { color: #8f733b !important; }
+  .md-nav--secondary .md-nav__link { color: #666666 !important; }
+  .md-nav--secondary .md-nav__link:hover { color: #8f733b !important; }
+  .md-nav--secondary .md-nav__link--active { color: #8f733b !important; border-left-color: #8f733b !important; }
+  
+  .md-search__form { background-color: #f9f8f6 !important; border-color: #e9e5de !important; }
+  .md-search__input { color: #1e1e1e !important; }
+  .md-search__input:focus { border-color: #8f733b !important; }
+  .md-search__icon { color: #8f733b !important; }
+  .md-search__output { background-color: #ffffff !important; border-color: #e9e5de !important; color: #1e1e1e !important; }
+  .md-search__output .md-typeset h1, .md-search__output .md-typeset h2, .md-search__output .md-typeset h3, .md-search__output .md-typeset a { color: #8f733b !important; }
+  .md-search-result { border-bottom-color: #e9e5de !important; }
+  .md-search-result:hover { background-color: rgba(143, 115, 59, 0.05) !important; }
+  .md-search-result__meta { color: #666666 !important; background-color: rgba(143, 115, 59, 0.03) !important; border-bottom-color: #e9e5de !important; }
+  .md-search-result__item { border-bottom-color: #e9e5de !important; }
+  .md-search-result__link:hover { background-color: rgba(143, 115, 59, 0.03) !important; }
+  .md-search-result__icon.md-icon, .md-search-result__icon, .md-icon, svg.md-icon, [class*="md-icon"], .md-nav__icon, .md-nav__button, .md-nav__button .md-icon { color: #8f733b !important; fill: #8f733b !important; }
+  .md-search-result__title { color: #8f733b !important; }
+  .md-search-result__icon { visibility: hidden; }
+  .md-search-result mark { background-color: rgba(143, 115, 59, 0.2) !important; }
+  .md-search-result__more { background-color: rgba(143, 115, 59, 0.03) !important; border-top-color: #e9e5de !important; color: #8f733b !important; }
+  .md-search-result__more summary { color: #8f733b !important; }
+  .md-search-result__more summary:hover { background-color: rgba(143, 115, 59, 0.08) !important; color: #6b5428 !important; }
+  .md-search-result__more[open] { background-color: rgba(143, 115, 59, 0.01) !important; }
+  .md-search-result__more[open] summary { border-bottom-color: #e9e5de !important; }
+  .md-search__scrollwrap::-webkit-scrollbar-thumb { background-color: #8f733b !important; }
+  .md-search__scrollwrap::-webkit-scrollbar-track { background-color: #e9e5de !important; }
+  .md-search__scrollwrap { scrollbar-color: #8f733b #e9e5de !important; }
+  
+  .md-footer { background-color: #f3f1ed !important; border-top-color: #e9e5de !important; }
+  .md-footer__title { color: #8f733b !important; }
+  .md-footer-meta { background-color: #e9e5de !important; border-top-color: #f3f1ed !important; }
+  
+  @media screen and (max-width: 76.1875em) {
+    .md-nav--primary .md-nav__title { background-color: #8f733b !important; color: #ffffff !important; }
+  }
+  ::selection { background: rgba(143, 115, 59, 0.2) !important; }
+  ::-webkit-scrollbar-thumb:hover { background: #8f733b !important; }
+
+  /* ==========================================================================
+     РАЗНОЦВЕТНЫЕ ADMONITIONS (Для Obsidian типов в Светлой теме)
+     ========================================================================== */
+
+  /* --- 1. EXAMPLE & ABSTRACT (Информационные / Книжные — Приглушенный синий) --- */
+  .md-typeset .admonition.example,  .md-typeset details.example,
+  .md-typeset .admonition.abstract, .md-typeset details.abstract {
+    background-color: #f5f8fa !important; border-color: #3b6b8f !important;
+  }
+  .md-typeset .admonition.example > .admonition-title,  .md-typeset details.example > summary,
+  .md-typeset .admonition.abstract > .admonition-title, .md-typeset details.abstract > summary {
+    background-color: rgba(59, 107, 143, 0.08) !important; color: #3b6b8f !important;
+  }
+
+  /* --- 2. TIP & HINT (Положительные / Советы — Лесной зеленый) --- */
+  .md-typeset .admonition.tip,  .md-typeset details.tip,
+  .md-typeset .admonition.hint, .md-typeset details.hint {
+    background-color: #f5faf6 !important; border-color: #3b8f5c !important;
+  }
+  .md-typeset .admonition.tip > .admonition-title,  .md-typeset details.tip > summary,
+  .md-typeset .admonition.hint > .admonition-title, .md-typeset details.hint > summary {
+    background-color: rgba(59, 143, 92, 0.08) !important; color: #3b8f5c !important;
+  }
+
+  /* --- 3. WARNING & CAUTION (Внимание / Опасность — Огонь / Терракота) --- */
+  .md-typeset .admonition.warning, .md-typeset details.warning,
+  .md-typeset .admonition.caution, .md-typeset details.caution {
+    background-color: #faf7f5 !important; border-color: #c85a17 !important;
+  }
+  .md-typeset .admonition.warning > .admonition-title, .md-typeset details.warning > summary,
+  .md-typeset .admonition.caution > .admonition-title, .md-typeset details.caution > summary {
+    background-color: rgba(200, 90, 23, 0.08) !important; color: #c85a17 !important;
+  }
+
+  /* --- 4. FAILURE & BUG & DANGER (Критические ошибки / Угрозы — Винный красный) --- */
+  .md-typeset .admonition.failure, .md-typeset details.failure,
+  .md-typeset .admonition.danger,  .md-typeset details.danger,
+  .md-typeset .admonition.bug,     .md-typeset details.bug {
+    background-color: #fdfafb !important; border-color: #8b1e1e !important;
+  }
+  .md-typeset .admonition.failure > .admonition-title, .md-typeset details.failure > summary,
+  .md-typeset .admonition.danger > .admonition-title,  .md-typeset details.danger > summary,
+  .md-typeset .admonition.bug > .admonition-title,     .md-typeset details.bug > summary {
+    background-color: rgba(139, 30, 30, 0.08) !important; color: #8b1e1e !important;
+  }
+
+}
+
+/* ==========================================================================
+   НЕЙТРАЛЬНЫЕ ГЛОБАЛЬНЫЕ СТИЛИ (Шрифты, размеры, геометрия)
+   ========================================================================== */
+.md-typeset {
+  font-size: 14px !important;
+  line-height: 1.6 !important;
+  font-family: 'Roboto Condensed', sans-serif !important;
+}
+.md-typeset h1, .md-typeset h2, .md-typeset h3, .md-typeset h4 {
+  font-family: 'Roboto Condensed', sans-serif !important;
+  margin: 1em 0 !important;
+}
+.md-typeset h1 { font-size: 1.6em !important; font-weight: 700 !important; }
+.md-typeset h2 { font-size: 1.3em !important; font-weight: 600 !important; }
+.md-typeset h3 { font-size: 1.15em !important; font-weight: 600 !important; }
+.md-typeset h4 { font-size: 1.05em !important; font-weight: 500 !important; }
+.md-typeset p { font-size: 14px !important; line-height: 1.6 !important; margin: 1em 0 !important; }
+.md-typeset a { text-decoration: none !important; transition: color 0.2s ease !important; }
+.md-typeset a:hover { text-decoration: underline !important; }
+
+/* Геометрия навигации (Общая для всех тем) */
+.md-header__title { font-weight: 700 !important; font-family: 'Roboto Condensed', sans-serif !important; text-transform: uppercase !important; letter-spacing: 0.5px !important; }
+.md-tabs__link { font-family: 'Roboto Condensed', sans-serif !important; font-weight: 500 !important; transition: color 0.2s ease !important; }
+.md-tabs__link--active, .md-tabs__item--active .md-tabs__link { font-weight: 600 !important; }
+.md-sidebar, .md-sidebar--primary, .md-sidebar--secondary, .md-sidebar__scrollwrap, .md-nav, .md-nav--primary, .md-nav--secondary, .md-nav__link, .md-nav__item { background-color: transparent !important; background: transparent !important; box-shadow: none !important; }
+.md-nav { font-family: 'Roboto Condensed', sans-serif !important; font-size: 13px !important; }
+.md-nav__title { font-weight: 600 !important; text-transform: uppercase !important; letter-spacing: 0.3px !important; font-size: 11px !important; position: static !important; z-index: auto !important; box-shadow: none !important; padding: 0.6rem 0.8rem !important; }
+.md-nav__link { transition: color 0.2s ease !important; padding: 0.4rem 0.8rem !important; border-radius: 0 !important; margin: 0 !important; }
+.md-nav--secondary .md-nav__title { font-weight: 600 !important; position: static !important; z-index: auto !important; }
+.md-nav--secondary .md-nav__link { font-size: 12px !important; }
+.md-nav--secondary .md-nav__link--active { border-left: 2px solid !important; }
+.md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link { position: static !important; z-index: auto !important; margin-top: 0 !important; }
+.md-nav__title[data-md-level="0"] { position: static !important; z-index: auto !important; }
+.md-sidebar * { box-shadow: none !important; }
+
+/* Геометрия таблиц и блоков кода */
+.md-typeset table:not([class]) { border-collapse: collapse !important; margin: 1.5em 0 !important; font-size: 12px !important; font-family: 'Roboto Condensed', sans-serif !important; }
+.md-typeset table:not([class]) th { font-weight: 600 !important; padding: 0.8rem !important; text-align: center !important; border: 1px solid !important; text-transform: uppercase !important; letter-spacing: 0.3px !important; font-size: 11px !important; }
+.md-typeset table:not([class]) td { padding: 0.6rem 0.8rem !important; border: 1px solid !important; text-align: center !important; }
+.md-typeset table:not([class]) tr:nth-child(even) { background-color: rgba(255, 255, 255, 0.02) !important; }
+.md-typeset table:not([class]) tr { transition: background-color 0.15s ease !important; }
+.md-typeset pre { border: 1px solid !important; border-radius: 0.3rem !important; }
+.md-typeset code { border-radius: 0.2rem !important; padding: 0.2rem 0.4rem !important; font-family: 'Roboto Mono', monospace !important; font-weight: 500 !important; border: 1px solid !important; font-size: 12px !important; }
+
+/* Геометрия Admonitions */
+.md-typeset .admonition, .md-typeset details { border: 1px solid !important; border-radius: 0.3rem !important; font-size: 13px !important; margin: 1.5em 0 !important; padding: 0 !important; }
+.md-typeset .admonition:not(.admonition-title) > p { padding: 5px 10px 5px 10px !important; }
+.md-typeset summary:before { visibility: hidden !important; display: none !important; }
+.md-typeset .admonition-title, .md-typeset summary { font-weight: 600 !important; padding: 0.6rem 0.8rem !important; margin: 0 !important; border-bottom: 1px solid !important; font-family: 'Roboto Condensed', sans-serif !important; letter-spacing: 0.3px !important; }
+.md-typeset .admonition-title::before, .md-typeset summary::before { mask-size: contain !important; visibility: hidden !important; display: none !important; }
+
+/* Поиск и прочее */
+.git-revision-date-localized-plugin .git-revision-date-localized-plugin-date { font-family: 'Roboto Condensed', sans-serif !important; font-size: 11px; }
+.md-search { background-color: transparent !important; }
+.md-search__form { border: 1px solid !important; border-radius: 0.3rem !important; box-shadow: none !important; }
+.md-search__input { background-color: transparent !important; font-family: 'Roboto Condensed', sans-serif !important; font-size: 13px !important; border: none !important; box-shadow: none !important; }
+.md-search__input::placeholder { color: #888888 !important; }
+.md-search__output { border: 1px solid !important; border-radius: 0.3rem !important; }
+.md-search__output .md-typeset { font-family: 'Roboto Condensed', sans-serif !important; }
+.md-search-result__meta { font-family: 'Roboto Condensed', sans-serif !important; font-size: 11px !important; text-transform: uppercase !important; letter-spacing: 0.3px !important; padding: 0.5rem 1rem !important; border-bottom: 1px solid !important; }
+.md-search-result__list { margin: 0 !important; padding: 0 !important; }
+.md-search-result__link { text-decoration: none !important; transition: background-color 0.2s ease !important; }
+.md-search-result__article { padding: 1rem !important; }
+.md-search-result__title { font-family: 'Roboto Condensed', sans-serif !important; font-weight: 600 !important; font-size: 1.1em !important; margin-bottom: 0.5rem !important; }
+.md-search-result__teaser { font-size: 12px !important; line-height: 1.5 !important; }
+.md-search-result__terms { font-size: 11px !important; }
+.md-search-result mark { border-radius: 0.2rem !important; padding: 0.1rem 0.2rem !important; font-weight: 600 !important; }
+.md-search-result__more { border-top: 1px solid !important; }
+.md-search-result__more summary { font-family: 'Roboto Condensed', sans-serif !important; font-size: 11px !important; font-weight: 500 !important; padding: 0.5rem 1rem !important; cursor: pointer !important; }
+.md-search-result__more[open] summary { border-bottom: 1px solid !important; }
+.md-search__scrollwrap::-webkit-scrollbar { width: 0.3rem !important; }
+.md-search__scrollwrap::-webkit-scrollbar-thumb { border-radius: 0.2rem !important; }
+
+/* Общие скроллбары */
+::-webkit-scrollbar { width: 0.5rem !important; height: 0.5rem !important; }
+::-webkit-scrollbar-track { background: #121212 !important; }
+::-webkit-scrollbar-thumb { background: #353535 !important; border-radius: 0.25rem !important; }
+::-webkit-scrollbar-corner { background: #121212 !important; }
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset { font-size: 13px !important; }
+  .md-typeset h1 { font-size: 1.4em !important; }
+  .md-typeset h2 { font-size: 1.2em !important; }
+}
